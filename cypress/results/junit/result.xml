@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<testsuites>
+<testsuite name="Root Suite" timestamp="2021-01-25T00:54:12" tests="0" file="cypress/integration/firstTest.spec.js" time="0.0000" failures="0"></testsuite>
+<testsuite name="This is my first test suite" timestamp="2021-01-25T00:54:12" tests="2" time="7.6540" failures="1">
+  
+  <testcase name="This is my first test suite Invoke command" time="6.1530" classname="Invoke command">
+    
+    <failure message="Timed out retrying after 4000ms: Expected to find element: `[for=&quot;exampleInputEmail1&quot;]`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `[for="exampleInputEmail1"]`, but never found it.
+    at Context.eval (http://localhost:4200/__cypress/tests?p=cypress/integration/firstTest.spec.js:118:42)]]></failure>
+    
+  </testcase>
+  
+  <testcase name="This is my first test suite Using Webtables" time="1.5010" classname="Using Webtables"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2021-01-25T00:54:35" tests="0" file="cypress/integration/pageObjectsTest.spec.js" time="0.0000" failures="0"></testsuite>
+<testsuite name="This is my first page object" timestamp="2021-01-25T00:54:35" tests="1" time="2.8080" failures="0">
+  
+  <testcase name="This is my first page object first object" time="2.8080" classname="first object"></testcase>
+  
+</testsuite>
+
+</testsuites>
